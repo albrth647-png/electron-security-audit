@@ -1,0 +1,141 @@
+{
+  "nota": "Compact extract of REA evidence — run 1 (full asar). Node/edge arrays are omitted for size; facts, IDs and coverage are preserved. The original (137 MB) lives in workflow run 38856900076's artifact.",
+  "evidence_id": "ev_a94efae81586d359238a5eb1cd34b9a9ed8da7748c3f9a86d4757fe855435ca8",
+  "operation": "analyze_javascript_application",
+  "predicate_type": "rea.javascript-application-analysis",
+  "confidence": "derived",
+  "authority": "shipped-artifact",
+  "provider": {
+    "id": "rea-javascript-application",
+    "name": "REA JavaScript application analyzer",
+    "version": "1"
+  },
+  "subject": {
+    "name": "app.asar",
+    "digest": {
+      "sha256": "e64b9650c0b8241ca9a7d33b56386a385bceee63270cec701d3a467347b697e6"
+    },
+    "local_path": "/home/runner/work/_temp/jsdir/app.asar",
+    "format": "asar",
+    "architecture": null
+  },
+  "parameters": {
+    "format": "auto",
+    "integrity_policy": "fail"
+  },
+  "timeout": 300000,
+  "inventory_manifest_id": "agm_e0fe639090b97e0e12931fb0440e1c0901c2302d8aed2937c0cda396cf2a50d5",
+  "inventory_graph_sha256": "3012b2a179bbbafd9f1d618a154058c5a28ac2b5ef2962000883510b14fb73a4",
+  "root_artifact_sha256": "e64b9650c0b8241ca9a7d33b56386a385bceee63270cec701d3a467347b697e6",
+  "integrity_contradictions": [],
+  "statistics": {
+    "relevant_files": 1292,
+    "nested_asar_containers": 0,
+    "text_bytes_read": 34027540,
+    "invalid_utf8_files": 0,
+    "parsed_javascript_files": 11,
+    "visited_ast_nodes": 3267398,
+    "findings": 3246,
+    "modules": 0,
+    "parse_failures": 0
+  },
+  "summary_electron": {
+    "browser_windows": 0,
+    "explicit_web_preferences": 0,
+    "preload_entrypoints": 0,
+    "context_bridge_apis": 0,
+    "exposed_api_members": 0,
+    "ipc": {
+      "operations": 0,
+      "literal_channels": 0,
+      "dynamic_channel_operations": 0,
+      "renderer_transmissions": 0,
+      "renderer_listeners": 0,
+      "main_handlers": 0,
+      "paired_renderer_transmissions": 0,
+      "ambiguous_renderer_transmissions": 0,
+      "unpaired_literal_renderer_transmissions": 0
+    },
+    "sender_validation_observations": 0,
+    "utility_processes": 0,
+    "resolved_utility_entrypoints": 0,
+    "native_addon_bindings": 0,
+    "resolved_native_addon_bindings": 0
+  },
+  "graph_id": "jag_25dd177b5be54d19217508589793de164ce5e8ea2a0cba52ceeefd420fcd9799",
+  "graph_counts": {
+    "nodes": 4804,
+    "edges": 7121,
+    "coverage": {
+      "status": "partial",
+      "truncated": false,
+      "omitted_count": null,
+      "limits": [
+        {
+          "name": "javascript_analysis_worker_heap_limit_bytes",
+          "value": 1098907648,
+          "unit": "bytes"
+        },
+        {
+          "name": "javascript_analysis_worker_timeout_ms",
+          "value": 300000,
+          "unit": "milliseconds"
+        }
+      ]
+    }
+  },
+  "semantic_graph_id": "jsrg_7814efb457d1aa30a5655a1fc37090f9f7a5c2b7bb4cbfd688af02299634672a",
+  "semantic_graph_counts": {
+    "nodes": 33455,
+    "relations": 19074,
+    "evidence_contexts": 2895,
+    "fingerprints": 4562,
+    "unknowns": 92468,
+    "root_node_ids": 1125,
+    "coverage": {
+      "status": "partial",
+      "truncated": true,
+      "limits": [
+        {
+          "name": "javascript_analysis_worker_heap_limit_bytes",
+          "value": 1098907648,
+          "unit": "bytes"
+        },
+        {
+          "name": "javascript_analysis_worker_timeout_ms",
+          "value": 300000,
+          "unit": "milliseconds"
+        },
+        {
+          "name": "semantic_graph_file_node_ceiling",
+          "value": 20000,
+          "unit": "items"
+        },
+        {
+          "name": "semantic_graph_node_ceiling",
+          "value": 100000,
+          "unit": "items"
+        }
+      ],
+      "families_total": 12,
+      "families_por_estado": {
+        "partial": 12
+      },
+      "nota": "families completas (7,5 MB) solo en el artefacto original del run 38856900076"
+    }
+  },
+  "limitations": [
+    "CommonJS and ESM binding relationships were recovered from inert syntax and resolved only within the inventoried artifact container.",
+    "Graph coverage is incomplete; unavailable facts remain explicit and must not be read as absence.",
+    "JavaScript and HTML were parsed as inert text; bundle bootstrap code was never executed.",
+    "Source analysis was interrupted: Analysis operation timed out after 300000ms: analyze_javascript_application",
+    "Static imports, entrypoints, workers, endpoints, and storage relationships do not prove runtime execution.",
+    "Static paths and relationships may remain unresolved when expressions are dynamic or obfuscated.",
+    "Webpack/Rspack factories were recovered from AST literals; REA did not invoke push handlers or bundle bootstrap code.",
+    "drawio/src/main/webapp/dropbox.html has 1 inline JavaScript body starting at line 7 that was not analyzed; endpoints, storage, imports and other facts in it are absent from the evidence.",
+    "drawio/src/main/webapp/github.html has 1 inline JavaScript body starting at line 8 that was not analyzed; endpoints, storage, imports and other facts in it are absent from the evidence.",
+    "drawio/src/main/webapp/gitlab.html has 1 inline JavaScript body starting at line 8 that was not analyzed; endpoints, storage, imports and other facts in it are absent from the evidence.",
+    "drawio/src/main/webapp/js/app.min.js: Resource constraint during analyze_javascript_application: Owned JavaScript worker exhausted its heap while analyzing drawio/src/main/webapp/js/app.min.js during semantic",
+    "drawio/src/main/webapp/js/extensions.min.js: Analysis operation timed out after 300000ms: analyze_javascript_application"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "note": "Verifiable index of the three analysis executions behind this audit.",
+  "artifact": {
+    "filename": "drawio-amd64-32.4.1.deb",
+    "release": "jgraph/drawio-desktop v32.4.1",
+    "sha256": "f4455b3bba3d3b539c3cd069218fc64f0462b1b01610fe8d11acc3ca8566f32b",
+    "verified_against_official_hash": true,
+    "hash_source": "Files-SHA256-Hashes.txt (release v32.4.1)",
+    "app": "draw.io@32.4.1 · GPL-3.0-only · main: src/main/electron.js · node>=22.12.0",
+    "electron_runtime_declared_in_repo_lockfile": "44.7.0 (package-lock.json @ tag v32.4.1)"
+  },
+  "runs": [
+    {
+      "run": 38856900076,
+      "scope": "full asar (broad inventory)",
+      "result": "partial (300000 ms limit)",
+      "evidence_id": "ev_a94efae81586d359238a5eb1cd34b9a9ed8da7748c3f9a86d4757fe855435ca8",
+      "file": "evidence-run1-asar.json"
+    },
+    {
+      "run": 38858685634,
+      "scope": "main process (Electron security vectors)",
+      "result": "complete (5 s)",
+      "evidence_id": "ev_f0e4202c3b188da10f4be9b3693006b0ba64e3483e7ea100916e388dd413fc2e",
+      "file": "evidence-run2-main.json"
+    },
+    {
+      "run": 38856900076,
+      "scope": "native Ghidra (chrome_crashpad_handler, ELF x86_64)",
+      "result": "complete",
+      "evidence_id": "ev_9ec17cfca1a869df4352fd6e5db03285c014f0efc2024a30ec924c337c7a22f0",
+      "file": "evidence-native-ghidra.json"
+    }
+  ],
+  "workflow": "rea-audit.yml @ albrth647-png/Ghidra (public)",
+  "pipeline_note": "The artifact was downloaded and analyzed on GitHub Actions runners; only kilobytes of evidence were retrieved."
+}

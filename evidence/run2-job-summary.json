@@ -1,0 +1,14 @@
+{
+  "app": "",
+  "archivos": {
+    "evidencia-js.json": {
+      "evidence_id": "ev_f0e4202c3b188da10f4be9b3693006b0ba64e3483e7ea100916e388dd413fc2e",
+      "operation": "analyze_javascript_application",
+      "confidence": "derived",
+      "limitaciones": 10,
+      "bytes": 21392759
+    },
+    "evidencia-nativa.json": "ausente"
+  },
+  "sha256_verificado": "true"
+}
