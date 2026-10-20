@@ -1,5 +1,9 @@
 # Electron Security Audit — a real sample, verifiable evidence
 
+<p align="left">
+  <img src="assets/brand/cover.png" alt="Audit with Proof" width="640">
+</p>
+
 > **Target audited:** draw.io Desktop **v32.4.1** (`drawio-amd64-32.4.1.deb`, 116 MB, GPL-3.0)
 > **Delivered:** 2026-10-16 · **Contracted SLA:** 48 h · **Evidence chain:** 3 REA evidence IDs + SHA-256
 >
