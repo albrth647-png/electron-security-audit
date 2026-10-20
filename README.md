@@ -29,7 +29,9 @@
 Desktop apps ship thousands of transitive dependencies nobody inventories. This sample shows what
 you get when an Electron/JS build is audited **statically, reproducibly, and honestly**:
 
-1. **Verifiable** — every observation has an `evidence_id` (SHA-256 of the evidence document), the
+1. **Verifiable** — every observation has an `evidence_id`: the SHA-256 of the **canonical semantic
+   projection** of the evidence document, recomputable with
+   [`evidence/verify-evidence.mjs`](evidence/verify-evidence.mjs) (no dependencies, plain Node). The
    artifact hash is checked against the project's *own* published hash, and you can re-run the whole
    pipeline for free.
 2. **Honest** — limitations are a first-class section, not a footnote. Unresolvable things are

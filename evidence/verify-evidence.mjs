@@ -131,6 +131,10 @@ function main() {
       fallos++
       continue
     }
+    if (!evidence.evidence_id || evidence.subject === undefined) {
+      console.log(`NO ES EVIDENCIA  ${basename(file)}  (sin evidence_id/subject: documento de error o resumen)`)
+      continue
+    }
     const declarado = evidence.evidence_id
     const calculado = evidenceId(evidence)
     const ok = declarado === calculado
