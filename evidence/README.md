@@ -29,15 +29,16 @@ collides with it.
 ## 2. How to recompute it (3 commands)
 
 ```bash
-# 1. get the raw evidence documents
+# 1. get the evidence
 git clone https://github.com/albrth647-png/electron-security-audit.git
-cd electron-security-audit
+cd electron-security-audit/evidence/raw
 
-# 2. check the bytes of the raw documents (SHA-256 of the .gz)
-cd evidence/raw && sha256sum -c MANIFEST.raw.sha256 && cd ../..
+# 2. check the bytes of what is published (SHA-256 of every file)
+sha256sum -c MANIFEST.raw.sha256
 
-# 3. recompute the ids (no dependencies, no install)
-node evidence/verify-evidence.mjs evidence/raw/*.gz   # gunzip first if needed
+# 3. uncompress and recompute the ids (no dependencies, no install)
+gunzip -k *.gz
+cd ../.. && node evidence/verify-evidence.mjs evidence/raw/*.json
 ```
 
 Expected output (verified on 2026-10-20):
@@ -59,7 +60,7 @@ COINCIDE  evidencia-nativa.json
 | `evidence-run1-asar.json` | Compact extract of the **asar** analysis (run 1). Compact = node/edge arrays omitted for size. |
 | `evidence-run2-main.json` | Compact extract of the **main process** analysis (run 2). |
 | `evidence-native-ghidra.json` | The **native** analysis evidence (Ghidra, run 3) — published in full. |
-| `raw/` | The **raw** evidence documents (gzipped) for the runs whose document survived, plus `MANIFEST.raw.sha256`. |
+| `raw/` | The **raw** evidence documents (gzipped) for the runs whose document survived, plus `MANIFEST.raw.sha256` (SHA-256 of every published file) and the SBOM of the audited package. |
 | `package-drawio-32.4.1.json`, `run2-job-summary.json` | The analysed package manifest and the job summary of run 2. |
 
 ---
