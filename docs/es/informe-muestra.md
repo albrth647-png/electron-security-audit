@@ -19,7 +19,7 @@
 | **SHA-256 del artefacto** | `f4455b3bba3d3b539c3cd069218fc64f0462b1b01610fe8d11acc3ca8566f32b` |
 | **Verificado contra hash oficial** | ✅ **Sí** — coincide con `Files-SHA256-Hashes.txt` de la propia release |
 | **Fecha de recepción** | 2026-10-16 (recepción y entrega el mismo día — el artefacto es público) |
-| **Fecha de entrega** | 2026-10-16 (plazo contratado: 48 h) |
+| **Fecha de entrega** | 2026-10-16 (plazo estándar: 48 h; esta muestra se produjo en un día) |
 | **Analista** | [albrth647-png](https://github.com/albrth647-png) · motor **REA 6.5.0 + Ghidra 12.1.4** |
 | **Alcance acordado** | Paquete **Entrada** — ver [proforma](proforma.md) |
 | **Licencia del objetivo** | GPL-3.0-only (análisis de código público, permitido) |

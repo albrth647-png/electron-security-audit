@@ -1,6 +1,6 @@
 # AUDIT REPORT — draw.io Desktop 32.4.1
 
-> 🟢 **PUBLIC SAMPLE REPORT** — the exact deliverable shipped in the Entry package
+> 🟢 **PUBLIC SAMPLE REPORT** — the exact structure shipped in the Entry package
 > (150 USDT). Target is **open-source** (GPL-3.0), analyzed under the terms of its own license.
 > No real client involved: this is the demonstration piece.
 >
@@ -19,7 +19,7 @@
 | **SHA-256 of artifact** | `f4455b3bba3d3b539c3cd069218fc64f0462b1b01610fe8d11acc3ca8566f32b` |
 | **Verified against official hash** | ✅ **Yes** — matches `Files-SHA256-Hashes.txt` published in the release itself |
 | **Received** | 2026-10-16 (received and delivered same day — the artifact is public) |
-| **Delivered** | 2026-10-16 (contracted SLA: 48 h) |
+| **Delivered** | 2026-10-16 (our standard 48 h turnaround; this sample was produced in a day) |
 | **Analyst** | [albrth647-png](https://github.com/albrth647-png) · engine **REA 6.5.0 + Ghidra 12.1.4** |
 | **Scope agreed** | **Entry** package — see [proforma](payment-proforma.md) |
 | **Target license** | GPL-3.0-only (public source; analysis permitted) |

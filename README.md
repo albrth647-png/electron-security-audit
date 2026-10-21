@@ -5,11 +5,13 @@
 </p>
 
 > **Target audited:** draw.io Desktop **v32.4.1** (`drawio-amd64-32.4.1.deb`, 116 MB, GPL-3.0)
-> **Delivered:** 2026-10-16 · **Contracted SLA:** 48 h · **Evidence chain:** 3 REA evidence IDs + SHA-256
+> **Public sample** · produced 2026-10-16 with our own engine · **no client involved — this is the demonstration piece**
+> **Turnaround:** 48 h standard (this one took a day) · **Evidence chain:** 3 evidence IDs + SHA-256
 >
-> This repo is the **exact deliverable of a flat-fee 48-hour audit service** for Electron/JS apps —
-> published in full as a public sample. Every claim below carries a cryptographic evidence ID, and
-> **what we could not determine is declared explicitly** (that section is the product).
+> This is the **exact structure** of what we ship: the report, the template, the authorization,
+> the proforma and the evidence bundle — published in full so you can judge it before talking to anyone.
+> Every claim below carries a cryptographic evidence ID, and **what we could not determine is declared
+> explicitly**. That section is the product.
 
 ---
 
@@ -99,8 +101,8 @@ you get when an Electron/JS build is audited **statically, reproducibly, and hon
 ```
 
 - **The heavy lifting runs in the cloud** (the 116 MB artifact, 543 MB Ghidra) — clients' software
-  never touches third-party SaaS; for real engagements the analysis runs locally or on the
-  client's own runner.
+  never touches third-party SaaS; for real engagements the analysis runs on our private runner
+  or on yours.
 - The whole pipeline is **workflow [`rea-audit.yml`](https://github.com/albrth647-png/Ghidra/actions)** — reproducible at zero cost.
 
 ### Runs
@@ -156,7 +158,8 @@ Full section: [docs/audit-report-drawio-32.4.1.md](docs/audit-report-drawio-32.4
 ## The service — what you get
 
 > **Entry package: flat 150 USDT** (TRC-20) · delivered in **48 h** ·
-> your artifact never leaves your machine (analysis runs locally or on *your* runner).
+> your artifact never touches third-party SaaS: the analysis runs on our private runner or yours.
+> (This public sample ran in a *public* CI runner — the target is public software.)
 
 | # | Deliverable |
 |---|---|
