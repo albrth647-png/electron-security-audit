@@ -157,9 +157,14 @@ Full section: [docs/audit-report-drawio-32.4.1.md](docs/audit-report-drawio-32.4
 
 ## The service — what you get
 
-> **Entry package: flat 150 USDT** (TRC-20) · delivered in **48 h** ·
+> **Entry package: flat 150 USDT** (USDT or USDC, TRC-20 or BEP-20) · delivered in **48 h** ·
 > your artifact never touches third-party SaaS: the analysis runs on our private runner or yours.
 > (This public sample ran in a *public* CI runner — the target is public software.)
+>
+> **Our three guarantees:** ① **Deadline** — if it is not delivered in 48 h, you get
+> **100 % back**. ② **Accuracy** — if a finding is contradicted by the source, we re-render
+> it or credit you **100 %**; the evidence IDs make that checkable. ③ **Privacy** — static,
+> read-only, on a private runner, artifact deleted after delivery.
 
 | # | Deliverable |
 |---|---|
@@ -184,7 +189,7 @@ native binary deep-dive (Ghidra) · infrastructure audit · SLA.
 
 ```
 ① You send the artifact + sign the authorization form   → docs/engagement-authorization.md
-② You pay 150 USDT (TRC-20) — proforma: docs/payment-proforma.md
+② You pay 150 USDT (or USDC; TRC-20 / BEP-20) — proforma: docs/payment-proforma.md
 ③ We deliver the report ≤ 48 h + evidence IDs          → docs/audit-report-drawio-32.4.1.md (format of what you receive)
 ```
 

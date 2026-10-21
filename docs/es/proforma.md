@@ -66,10 +66,16 @@
 
 | Campo | Valor |
 |---|---|
-| **Red** | ⚠️ **TRC-20 (Tron)** — verificar antes de enviar |
+| **Redes aceptadas** | **TRC-20 (Tron)** · **BEP-20 (BSC)** · **USDC** — el mismo precio, usa la que ya tengas |
 | **Dirección** | `T________________________` |
-| **Token** | USDT |
+| **Token** | USDT (TRC-20 / BEP-20) o USDC |
 | **Confirmaciones requeridas** | *(ej. 19 — estándar Tron)* |
+
+**¿Aún no tienes USDT?** Tres pasos, unos 10 minutos: (1) abre una cuenta en cualquier
+exchange grande y completa la verificación de identidad; (2) compra **150 USDT** con tu
+tarjeta — el mínimo suele ser 10 USDT y la comisión ronda el 1 %; (3) envíalos a la
+dirección de arriba **en la red que elijas**. Confirmamos la recepción on-chain y empieza
+el reloj de 48 horas. Pregúntanos si necesitas una red que no esté en la lista.
 
 > ⚠️ **AVISO:** el pago debe realizarse **exclusivamente en la red TRC-20**.
 > Un envío por otra red (ERC-20, BEP-20) puede **perderse de forma irreversible**.
@@ -82,7 +88,18 @@
 | **Momento del pago** | 100 % por adelantado, antes de iniciar el análisis |
 | **Inicio del plazo** | Recibido el pago **Y** el Artefacto **Y** la [autorización](autorizacion.md) aceptada |
 | **Plazo de entrega** | 48 h desde el inicio |
-| **Divisa** | Exclusivamente **USDT TRC-20**. No se aceptan tarjetas, transferencias bancarias ni otras criptomonedas |
+| **Divisa** | Solo **USDT o USDC** (TRC-20 o BEP-20). No se aceptan tarjetas, transferencias bancarias ni otras criptomonedas |
+
+### Nuestras tres garantías
+
+| # | Garantía | Qué significa |
+|---|---|---|
+| 1 | **De plazo** | Si el informe no se entrega en **48 h** desde el inicio, te devolvemos **el 100 %**, sin preguntas. |
+| 2 | **De exactitud** | Si un hallazgo se **contradice con el código**, lo rehacemos sin coste o te acreditamos el **100 %** del honorario. Nuestros evidence_id lo hacen comprobable: recomputa y lo que no se reproduce es responsabilidad nuestra. |
+| 3 | **De privacidad** | El artefacto se analiza **de forma estática y solo lectura**, en un runner privado (el nuestro o el tuyo) — nunca se ejecuta, nunca se sube a un servicio de terceros. Se borra tras la entrega salvo que nos pidas conservarlo. |
+
+> La garantía 2 solo podemos darla nosotros por cómo trabajamos: cada hallazgo lleva un
+> `evidence_id` criptográfico. No tienes que creerte el informe: puedes recomputarlo.
 
 ---
 

@@ -66,10 +66,16 @@
 
 | Field | Value |
 |---|---|
-| **Network** | ⚠️ **TRC-20 (Tron)** — verify before sending |
+| **Networks accepted** | **TRC-20 (Tron)** · **BEP-20 (BSC)** · **USDC** — same price, use whichever you already hold |
 | **Address** | `T________________________` |
-| **Token** | USDT |
+| **Token** | USDT (TRC-20 / BEP-20) or USDC |
 | **Required confirmations** | *(e.g. 19 — Tron standard)* |
+
+**No USDT yet?** Three steps, about 10 minutes: (1) open an account at any major exchange
+and complete the identity check; (2) buy **150 USDT** with your card — minimums are usually
+10 USDT and the fee is around 1 %; (3) send it to the address above **on the network you
+picked**. We confirm it on-chain and the 48-hour clock starts. Ask us if you need a
+network that is not listed.
 
 > ⚠️ **NOTICE:** payment must be made **exclusively on the TRC-20 network**.
 > Sending via another network (ERC-20, BEP-20) may be **lost irreversibly**.
@@ -82,7 +88,18 @@
 | **When payment is due** | 100 % upfront, before analysis begins |
 | **SLA starts** | Payment **AND** Artifact **AND** the accepted [authorization](engagement-authorization.md) are all received |
 | **Delivery** | 48 h from start |
-| **Currency** | Exclusively **USDT TRC-20**. No cards, bank transfers, or other cryptocurrencies |
+| **Currency** | **USDT or USDC only** (TRC-20 or BEP-20). No cards, bank transfers, or other cryptocurrencies |
+
+### Our three guarantees
+
+| # | Guarantee | What it means |
+|---|---|---|
+| 1 | **Deadline** | If the report is not delivered within **48 h** of the start, you get **100 % back** — no questions asked. |
+| 2 | **Accuracy** | If a finding is **contradicted by the source**, we re-render it at no charge or credit you **100 %** of the fee. Our evidence IDs make that checkable: recompute them, and anything that does not reproduce is on us. |
+| 3 | **Privacy** | The artifact is analysed **statically and read-only**, on a private runner (ours or yours) — never executed, never uploaded to a third-party service. It is deleted after delivery unless you ask us to keep it. |
+
+> Guarantee 2 is the one we can give because of how we work: every finding carries a
+> cryptographic `evidence_id`. You do not have to trust the report — you can recompute it.
 
 ---
 
