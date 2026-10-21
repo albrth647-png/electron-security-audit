@@ -206,6 +206,8 @@ a private channel), or use the contact listed on my GitHub profile.
 
 ## Scope & legal
 
+- [Privacy](privacy.html) · [Terms](terms.html)
+
 - Targets are **open-source (public license), self-owned, or covered by written authorization + NDA** only.
 - **Never:** DRM/license circumvention · anti-cheat bypass · authentication bypass · attacks against
   third-party production systems · cloning proprietary software. Analysis is **read-only, static**.
