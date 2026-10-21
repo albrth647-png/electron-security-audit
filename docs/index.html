@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Audit with Proof — dependency &amp; risk audits for Electron/JS apps</title>
+<meta name="description" content="Static dependency and risk audits for Electron and JavaScript apps. 48-hour turnaround, recomputable evidence IDs, and declared limits. Sample engagement published in full.">
+<meta property="og:title" content="Audit with Proof — dependency &amp; risk audits for Electron/JS apps">
+<meta property="og:description" content="A real sample engagement, published in full: 1,292 files inventoried, 82-package SBOM, 0 active CVEs, and 92,468 declared unknowns.">
+<meta property="og:image" content="https://albrth647-png.github.io/electron-security-audit/assets/cover.png">
+<meta property="og:type" content="website">
+<link rel="icon" href="https://albrth647-png.github.io/electron-security-audit/assets/logo.png">
+<style>
+  :root{
+    --marca:#8FE3CF; --fondo:#0A121C; --texto:#FFFFFF; --detalle:#5C7186; --linea:#1B2836;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--fondo);color:var(--texto);
+       font-family:"Poppins","Helvetica Neue",Arial,sans-serif;line-height:1.6}
+  .wrap{max-width:900px;margin:0 auto;padding:40px 22px 72px}
+  header{display:flex;align-items:center;gap:16px;margin-bottom:34px}
+  header img{width:64px;height:64px;border-radius:14px}
+  h1{font-size:clamp(30px,6vw,46px);line-height:1.1;margin:0 0 10px}
+  h2{font-size:20px;margin:38px 0 12px;color:var(--marca)}
+  p{color:#C6D2DE}
+  .lead{font-size:19px;color:#E6EDF3}
+  .barra{width:210px;height:4px;background:var(--marca);border-radius:3px;margin:18px 0 26px}
+  .grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));margin:20px 0}
+  .card{background:#0E1826;border:1px solid var(--linea);border-radius:14px;padding:16px 18px}
+  .card b{display:block;font-size:25px;color:var(--marca);letter-spacing:-.5px}
+  .card span{font-size:13.5px;color:var(--detalle)}
+  a.btn{display:inline-block;margin:8px 10px 8px 0;padding:12px 20px;border-radius:10px;
+       background:var(--marca);color:#062018;font-weight:700;text-decoration:none;font-size:15px}
+  a.btn.sec{background:transparent;color:var(--marca);border:1px solid var(--marca)}
+  .nota{border-left:3px solid var(--marca);padding:2px 0 2px 16px;margin:26px 0}
+  footer{margin-top:52px;padding-top:22px;border-top:1px solid var(--linea);
+         font-size:13.5px;color:var(--detalle)}
+  code{background:#0E1826;padding:2px 6px;border-radius:5px;color:var(--marca);font-size:13px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <img src="assets/logo.png" alt="Audit with Proof">
+  <div>
+    <strong style="letter-spacing:.5px">AUDIT</strong> <strong style="color:var(--marca);letter-spacing:.5px">WITH PROOF</strong>
+  </div>
+</header>
+
+<h1>Dependency &amp; risk audits for Electron and JavaScript apps</h1>
+<div class="barra"></div>
+
+<p class="lead">Static analysis of the artefact your users actually install — with every
+finding tied to a cryptographic evidence ID, and every limitation declared instead of hidden.</p>
+
+<h2>This page is a real engagement, published in full</h2>
+<p>Target: <b>draw.io Desktop v32.4.1</b> (Electron, 116 MB, GPL-3.0). Delivered in 48 h.
+The client received the report below — we publish it, with the evidence bundle, so you can
+judge the deliverable before talking to anyone.</p>
+
+<div class="grid">
+  <div class="card"><b>1,292</b><span>files inventoried</span></div>
+  <div class="card"><b>3,267,398</b><span>AST nodes visited · 0 parse errors</span></div>
+  <div class="card"><b>82</b><span>packages in the SBOM (9 direct)</span></div>
+  <div class="card"><b>0</b><span>active CVEs among 5 checked</span></div>
+  <div class="card"><b>35</b><span>IPC operations · 29 main handlers</span></div>
+  <div class="card"><b>92,468</b><span>unknowns registered, each with an ID</span></div>
+</div>
+
+<div class="nota">
+  <p style="margin:6px 0"><b>Why “0 vulnerabilities” is the interesting part:</b> the same report
+  declares <b>10 limitations</b> and registers <b>92,468 unknowns</b> with re-queryable IDs — and
+  names the run that hit its 1&nbsp;GB / 300&nbsp;s budget. Uncertainty is shipped as data, not hidden.</p>
+</div>
+
+<h2>Read the deliverable</h2>
+<a class="btn" href="https://github.com/albrth647-png/electron-security-audit/blob/main/docs/audit-report-drawio-32.4.1.md">Full report (EN)</a>
+<a class="btn sec" href="https://github.com/albrth647-png/electron-security-audit/blob/main/docs/es/informe-muestra.md">Informe completo (ES)</a>
+<a class="btn sec" href="https://github.com/albrth647-png/electron-security-audit">Repository &amp; evidence bundle</a>
+
+<h2>Engagement documents</h2>
+<a class="btn sec" href="https://github.com/albrth647-png/electron-security-audit/blob/main/docs/engagement-authorization.md">Engagement authorization</a>
+<a class="btn sec" href="https://github.com/albrth647-png/electron-security-audit/blob/main/docs/payment-proforma.md">Proforma &amp; terms</a>
+<a class="btn sec" href="https://github.com/albrth647-png/electron-security-audit/blob/main/docs/report-template.md">Report template</a>
+
+<h2>How it runs</h2>
+<p>Download the artefact → verify its SHA-256 against the publisher's own hash file →
+analyse it <b>statically</b> (nothing is executed) → report with evidence IDs and declared limits.
+Reproduce it yourself:</p>
+<p><code>rea analyze-javascript-application &lt;artefact&gt; --json</code></p>
+
+<h2>Engagements</h2>
+<p>Fixed scope, fixed price, 48 hours: dependency and risk report for your Electron/JS app —
+SBOM with exact versions, Electron posture review (windows, IPC, preload bridge, embedded
+secrets), and a declared-limitations section. <b>150 USDT</b> (TRC-20).</p>
+<a class="btn" href="https://github.com/albrth647-png/electron-security-audit/blob/main/docs/payment-proforma.md">Terms &amp; proforma</a>
+
+<footer>
+  Audit with Proof · static analysis only · the artefact was never executed ·
+  <a href="privacy.html" style="color:var(--marca)">Privacy</a> ·
+  <a href="terms.html" style="color:var(--marca)">Terms</a> ·
+  evidence IDs are recomputable by any third party
+</footer>
+
+</div>
+</body>
+</html>
