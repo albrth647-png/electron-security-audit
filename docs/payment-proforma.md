@@ -1,6 +1,8 @@
 # PAYMENT PROFORMA — Dependency & risk audit
 
-> **Version:** 1.0 · **Currency:** USDT **TRC-20** network · **Linked to:** [authorization](engagement-authorization.md) · [report template](report-template.md)
+> **Version:** 1.0 · **Currency:** USDT or USDC · **Networks:** TRC-20 / BEP-20 · **Linked to:** [authorization](engagement-authorization.md) · [report template](report-template.md)
+>
+> **Issued by:** Audit with Proof · florito64.1@gmail.com · https://albrth647-png.github.io/electron-security-audit/
 
 ---
 

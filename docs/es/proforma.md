@@ -1,6 +1,8 @@
 # PROFORMA DE PAGO — Auditoría de dependencias y riesgo
 
-> **Versión:** 1.0 · **Moneda:** USDT red **TRC-20** · **Vinculado a:** [autorización](autorizacion.md) · [plantilla de informe](plantilla-informe.md)
+> **Versión:** 1.0 · **Moneda:** USDT o USDC · **Redes:** TRC-20 / BEP-20 · **Vinculado a:** [autorización](autorizacion.md) · [plantilla de informe](plantilla-informe.md)
+>
+> **Emitida por:** Audit with Proof · florito64.1@gmail.com · https://albrth647-png.github.io/electron-security-audit/
 
 ---
 

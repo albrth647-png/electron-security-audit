@@ -193,8 +193,9 @@ native binary deep-dive (Ghidra) · infrastructure audit · SLA.
 ③ We deliver the report ≤ 48 h + evidence IDs          → docs/audit-report-drawio-32.4.1.md (format of what you receive)
 ```
 
-**Contact:** open an issue on this repo (add a `[private]` prefix if you prefer — we'll reply with
-a private channel), or use the contact listed on my GitHub profile.
+**Contact:** **`florito64.1@gmail.com`** — email is the best channel for an engagement: we can move the
+whole conversation to a private channel from there. (Use the repo's issue tracker only for
+questions about the public report or the sample evidence bundle.)
 
 ---
 
