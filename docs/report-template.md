@@ -1,7 +1,7 @@
 # AUDIT REPORT TEMPLATE — Dependency & risk audit
 
 > **Version:** 1.0 · **Package:** Entry (150 USDT) · **SLA:** 48 h
-> **Engine:** REA + Ghidra · **Payment:** USDT TRC-20
+> **Engine:** REA + Ghidra · **Payment:** USDT or USDC (TRC-20 / BEP-20)
 > **Linked documents:** [proforma](payment-proforma.md) · [engagement authorization](engagement-authorization.md) · [live sample report](audit-report-drawio-32.4.1.md)
 
 ---

@@ -206,7 +206,7 @@ questions about the public report or the sample evidence bundle.)
 | [Full audit report (draw.io 32.4.1)](docs/audit-report-drawio-32.4.1.md) | [es/informe-muestra.md](docs/es/informe-muestra.md) |
 | [Report template (what a deliverable contains)](docs/report-template.md) | [es/plantilla-informe.md](docs/es/plantilla-informe.md) |
 | [Engagement & confidentiality authorization](docs/engagement-authorization.md) | [es/autorizacion.md](docs/es/autorizacion.md) |
-| [Payment proforma (150 USDT, TRC-20)](docs/payment-proforma.md) | [es/proforma.md](docs/es/proforma.md) |
+| [Payment proforma (150 USDT or USDC, TRC-20 / BEP-20)](docs/payment-proforma.md) | [es/proforma.md](docs/es/proforma.md) |
 
 ---
 

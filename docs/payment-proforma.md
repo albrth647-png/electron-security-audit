@@ -64,7 +64,7 @@
 | Dependency & risk audit (**Entry** package) | **150 USDT** |
 | **TOTAL** | **150 USDT** |
 
-### Payment details (USDT — TRC-20 network)
+### Payment details (USDT or USDC — TRC-20 or BEP-20)
 
 | Field | Value |
 |---|---|
@@ -79,8 +79,9 @@ and complete the identity check; (2) buy **150 USDT** with your card — minimum
 picked**. We confirm it on-chain and the 48-hour clock starts. Ask us if you need a
 network that is not listed.
 
-> ⚠️ **NOTICE:** payment must be made **exclusively on the TRC-20 network**.
-> Sending via another network (ERC-20, BEP-20) may be **lost irreversibly**.
+> ⚠️ **NOTICE:** pay on **one of the accepted networks** (TRC-20 or BEP-20) with the agreed
+> token (USDT or USDC). Sending via a network we don't accept (e.g. ERC-20) may be
+> **lost irreversibly**.
 > The Client is responsible for verifying the network before sending.
 
 ### Conditions
@@ -110,7 +111,7 @@ network that is not listed.
 ```
 ① You accept this proforma + the authorization
         ↓
-② You send 150 USDT (TRC-20) + the Artifact
+② You send 150 USDT or USDC (TRC-20 or BEP-20) + the Artifact
         ↓
 ③ I confirm receipt with the verified transaction
         ↓

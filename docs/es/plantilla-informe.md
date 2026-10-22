@@ -1,7 +1,7 @@
 # PLANTILLA DE INFORME — Auditoría de dependencias y riesgo
 
 > **Versión:** 1.0 · **Paquete:** Entrada (150 USDT) · **Plazo:** 48 h
-> **Motor:** REA + Ghidra · **Cobro:** USDT TRC-20
+> **Motor:** REA + Ghidra · **Cobro:** USDT o USDC (TRC-20 / BEP-20)
 > **Documentos enlazados:** [proforma](proforma.md) · [autorización](autorizacion.md) · [informe muestra](informe-muestra.md)
 
 ---
@@ -208,6 +208,6 @@ app → dependencia_a → dependencia_b (vulnerable)
 
 > *Este informe fue generado con análisis estático sobre el artefacto proporcionado.*
 > *Las secciones §6 y §7 documentan explícitamente el alcance y sus límites.*
-> *Todo el análisis se realizó en local; el artefacto del cliente no fue subido a ningún servicio externo.*
+> *Todo el análisis se realizó de forma estática y solo lectura, en un runner privado (el nuestro o el tuyo); el artefacto del cliente no fue subido a ningún SaaS de terceros.*
 
 **Siguiente paso sugerido:** *(contratar auditoría Estándar / remediación guiada — ver [proforma](proforma.md))*

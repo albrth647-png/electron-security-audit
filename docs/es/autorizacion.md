@@ -10,7 +10,7 @@
 |---|---|---|
 | **Nombre** | *(…)* | *(tu marca / alias)* |
 | **Contacto** | *(…)* | *(…)* |
-| **Wallet USDT TRC-20** | *(la que use para pagar)* | *(tu wallet de recepción)* |
+| **Wallet de pago (USDT o USDC, TRC-20 / BEP-20)** | *(la red y el token que use para pagar)* | *(tu wallet de recepción)* |
 
 ---
 

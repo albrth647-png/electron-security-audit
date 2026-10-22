@@ -42,7 +42,7 @@
 - **48 horas** desde la recepción del Artefacto + aceptación de [autorización](autorizacion.md) y del pago
 - **1 ronda** de aclaraciones sobre el informe (48 h posteriores a la entrega)
 - Informe en formato Markdown / PDF
-- Análisis **100 % local** — el Artefacto no se sube a ningún servicio externo
+- Análisis **100 % controlado** — el Artefacto no se sube a ningún SaaS de terceros
 
 ### ❌ No incluido
 
@@ -64,7 +64,7 @@
 | Auditoría de dependencias y riesgo (paquete **Entrada**) | **150 USDT** |
 | **TOTAL** | **150 USDT** |
 
-### Datos de pago (USDT — red TRC-20)
+### Datos de pago (USDT o USDC — TRC-20 / BEP-20)
 
 | Campo | Valor |
 |---|---|
@@ -79,8 +79,9 @@ tarjeta — el mínimo suele ser 10 USDT y la comisión ronda el 1 %; (3) envía
 dirección de arriba **en la red que elijas**. Confirmamos la recepción on-chain y empieza
 el reloj de 48 horas. Pregúntanos si necesitas una red que no esté en la lista.
 
-> ⚠️ **AVISO:** el pago debe realizarse **exclusivamente en la red TRC-20**.
-> Un envío por otra red (ERC-20, BEP-20) puede **perderse de forma irreversible**.
+> ⚠️ **AVISO:** paga en **una de las redes aceptadas** (TRC-20 o BEP-20) con el token
+> acordado (USDT o USDC). Un envío por una red que no aceptamos (p. ej. ERC-20) puede
+> **perderse de forma irreversible**.
 > El Cliente es responsable de verificar la red antes de enviar.
 
 ### Condiciones
@@ -110,11 +111,11 @@ el reloj de 48 horas. Pregúntanos si necesitas una red que no esté en la lista
 ```
 ① Aceptas esta proforma + la autorización
         ↓
-② Envías 150 USDT (TRC-20) + el Artefacto
+② Envías 150 USDT o USDC (TRC-20 o BEP-20) + el Artefacto
         ↓
 ③ Te confirmo la recepción con la transacción verificada
         ↓
-④ Ejecuto el análisis estático (local, con evidencia)
+④ Ejecuto el análisis estático (controlado, con evidencia)
         ↓
 ⑤ Recibes el informe (≤48 h) + los evidence_id
         ↓
